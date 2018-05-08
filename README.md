@@ -9,7 +9,7 @@ sobre una base de datos PostgreSQL. Los servicios y la página web están montad
 and a JPA to assist on persistence operations which act over a PostgreSQL Database. The services as well as the website are hosted on Heroku using a 3.3v embedded Glassfish. The REST services were implemented using Jersey.
 
 ## Lista de servicios - Rest Services Endpoints that were implemented 
-https://bikesecurityrest.herokuapp.com/Servicios/rest/ {URL especificada en el código/URL specified on the code}
+https://bikesecurityrest.herokuapp.com/servicioPacket/rest/ {URL especificada en el código/URL specified on the code}
 1. GET
 2. POST
 3. PUT
