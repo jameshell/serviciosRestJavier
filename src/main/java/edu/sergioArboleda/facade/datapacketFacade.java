@@ -5,7 +5,7 @@
  */
 package edu.sergioArboleda.facade;
 
-import com.mycompany.jpa.Test;
+import com.mycompany.jpa.datapacketJPA;
 import edu.sergioArboleda.dao.ServiceImpl;
 import edu.sergioArboleda.dao.SingletonConnection;
 import edu.sergioArboleda.exception.ConexionException;
@@ -16,9 +16,9 @@ import javax.persistence.EntityManager;
  *
  * @author james
  */
-public class TestFacade extends ServiceImpl<Test>{
-     public TestFacade() throws ConexionException {
-        super(Test.class);
+public class datapacketFacade extends ServiceImpl<datapacketJPA>{
+     public datapacketFacade() throws ConexionException {
+        super(datapacketJPA.class);
         try{
              EntityManager em = SingletonConnection.getConnection();
             super.setEntityManager(em);
@@ -29,7 +29,7 @@ public class TestFacade extends ServiceImpl<Test>{
     }
     
     @Override
-    public List<Test> findAll() {
+    public List<datapacketJPA> findAll() {
         return super.findAll();
     }
 }

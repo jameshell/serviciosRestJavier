@@ -69,7 +69,7 @@
     </dependencies>
     
     <build>
-        <finalName>holaMundo</finalName>
+        <finalName>javierdavid</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -128,6 +128,6 @@
         </pluginRepository>
     </pluginRepositories>
     
-    <name>back_end</name>
+    <name>javierDavid</name>
 </project>
 
