@@ -67,9 +67,5 @@ public class datapacketJPA implements Serializable {
     @Override
     public String toString() {
         return "datapacket{" + "latitud=" + latitud + ", longitud=" + longitud + ", distancia=" + distancia + '}';
-    }
-    
-    
-    
-     
+    }    
 }
