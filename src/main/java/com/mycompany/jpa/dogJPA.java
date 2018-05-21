@@ -33,7 +33,7 @@ public class dogJPA implements Serializable {
     @Column(name= "energy", nullable = false)
     private String energy;
     
-    @Column(name= "description", nullable = false)
+    @Column(name= "descripcion", nullable = false)
     private String description;
     
     @Column(name= "picture", nullable = true)

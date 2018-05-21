@@ -6,5 +6,6 @@
     <class>com.mycompany.jpa.Exam</class>
     <class>com.mycompany.jpa.Test</class>
     <class>com.mycompany.jpa.datapacketJPA</class>
+    <class>com.mycompany.jpa.dogJPA</class>
   </persistence-unit>
 </persistence>
