@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package edu.sergioArboleda.facade;
-
-
-import com.mycompany.jpa.dogJPA;
+import com.mycompany.jpa.commentJPA;
 import edu.sergioArboleda.dao.ServiceImpl;
 import edu.sergioArboleda.dao.SingletonConnection;
 import edu.sergioArboleda.exception.ConexionException;
@@ -16,9 +14,9 @@ import javax.persistence.EntityManager;
  *
  * @author james
  */
-public class dogFacade extends ServiceImpl<dogJPA>{
-    public dogFacade() throws ConexionException {
-        super(dogJPA.class);
+public class commentFacade extends ServiceImpl<commentJPA>{
+    public commentFacade() throws ConexionException {
+        super(commentJPA.class);
         try{
              EntityManager em = SingletonConnection.getConnection();
             super.setEntityManager(em);
@@ -29,7 +27,7 @@ public class dogFacade extends ServiceImpl<dogJPA>{
     }
     
     @Override
-    public List<dogJPA> findAll() {
+    public List<commentJPA> findAll() {
         return super.findAll();
     }
 }
