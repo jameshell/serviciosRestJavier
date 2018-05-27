@@ -31,7 +31,7 @@ public class dogService {
     // URI:
     // /contextPath/servletPath/datapackets  --> RETORNA LISTA DE ELEMENTOS DENTRO DE LA TABLA datapackets
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public List<dog> getDogJson() throws ConexionException {
         List<dog> testsDTO = new ArrayList<dog>();
         dogFacade facade = null;
